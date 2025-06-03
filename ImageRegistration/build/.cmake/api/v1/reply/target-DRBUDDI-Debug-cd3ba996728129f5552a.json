@@ -1,0 +1,2923 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/juan_liu/Documents/Projects/tools/TORTOISEV4/check/bin/DRBUDDI"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"FIND_PACKAGE",
+			"target_compile_definitions",
+			"set_property",
+			"INCLUDE",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/ITKTargets.cmake",
+			"/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/ITKConfig.cmake",
+			"/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/CMake/UseITK.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 575,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 325,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 332,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 353,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 62,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 62,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 62,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 62,
+				"parent" : 17
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 70,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 38,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fopenmp -std=c++14 -Wno-deprecated-declarations -Wno-unused-result -Wno-narrowing  -msse2 -g -std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "DRBUDDIALONE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "ITK_FFTIMAGEFILTERINIT_FACTORY_REGISTER_MANAGER"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "ITK_IMAGEIO_FACTORY_REGISTER_MANAGER"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "ITK_MESHIO_FACTORY_REGISTER_MANAGER"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "ITK_TRANSFORMIO_FACTORY_REGISTER_MANAGER"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "USE_OPENMP"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_POSIX_C_SOURCE=200809L"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "/home/juan_liu/Documents/Projects/tools/TORTOISEV4/check/build/ITKFactoryRegistration"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/Watersheds/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Video/IO/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Video/Filtering/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Video/Core/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Bridge/VTK/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/TestKernel/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/SuperPixel/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/SpatialFunction/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/RegistrationMethodsv4/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/RegionGrowing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/QuadEdgeMeshFiltering/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/Metricsv4/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Optimizersv4/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/MarkovRandomFieldsClassifiers/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/LevelSetsv4/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/LabelVoting/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/libLBFGS/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/KLMRegionGrowing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageNoise/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageFusion/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageFrequency/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/VTK/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformMatlab/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformInsightLegacy/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformHDF5/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformFactory/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Stimulate/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/SpatialObjects/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/XML/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Siemens/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/RAW/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/PNG/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/PNG/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/PNG/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/NRRD/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/NrrdIO/src/NrrdIO"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/NrrdIO/src/NrrdIO"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/NIFTI/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Meta/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Mesh/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshVTK/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshOFF/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshOBJ/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshGifti/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshFreeSurfer/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshBYU/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/Voronoi/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MRC/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MINC/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/HDF5/src/itkhdf5"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/HDF5/src/itkhdf5"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC/src/libminc/volume_io/Include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC/src/libminc/libsrc2"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC/src/libminc/libcommon"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC/src/libminc"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/MINC"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/LSM/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TIFF/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/TIFF/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/TIFF/src/itktiff"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/TIFF/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/JPEG2000/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/OpenJPEG/src/openjpeg"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/OpenJPEG/src/openjpeg"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/JPEG/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/JPEG/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/JPEG/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/HDF5/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/GIPL/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/GE/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/IPL/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/GDCM/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/CSV/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Bruker/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/BioRad/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/BMP/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/HDF5/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/HDF5/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/GPUThresholding/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/GPUSmoothing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/GPUPDEDeformable/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/PDEDeformable/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/Common/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/GPUCommon/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/GPUImageFilterBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/GPUAnisotropicSmoothing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/GPUFiniteDifference/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/GPUCommon/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GIFTI/src/gifticlib"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/MessageExchangeDefinition"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/Common"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/DataDictionary"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/GDCM/src/gdcm/Source/Common"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/GDCM"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/Expat/src/expat"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/Expat/src/expat"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Eigen/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/DisplacementField/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/DiffusionTensorImage/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Denoising/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/DeformableMesh/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Deconvolution/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/DICOMParser/src/DICOMParser"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/DICOMParser/src/DICOMParser"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Colormap/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/Classifiers/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/BiasCorrection/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Polynomials/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/AntiAlias/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/LevelSets/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/SignedDistanceFunction/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Optimizers/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageFeature/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageGradient/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Smoothing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageSources/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Convolution/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/FFT/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageCompare/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/ImageBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/IO/ImageBase"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/FastMarching/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/QuadEdgeMesh/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/DistanceMap/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/NarrowBand/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/BinaryMathematicalMorphology/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/MathematicalMorphology/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/ConnectedComponents/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Thresholding/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/LabelMap/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageLabel/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageIntensity/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Path/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageStatistics/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/SpatialObjects/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MetaIO/src/MetaIO/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/MetaIO/src/MetaIO/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/ZLIB/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/ZLIB/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/Mesh/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageCompose/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/AnisotropicSmoothing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageGrid/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/ImageFunction/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/Transform/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Statistics/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/Netlib"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/ImageAdaptors/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/CurvatureFlow/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageFilterBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/FiniteDifference/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/Common/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/Core/Common"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/VNL/src/vxl/core"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/VNL/src/vxl/vcl"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/VNL/src/vxl/v3p/netlib"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/core"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/Eigen3/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/DoubleConversion/src/double-conversion"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/DoubleConversion/src"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/usr/local/boost176/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/HDF5/src/itkhdf5/src"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/NIFTI/src/nifti/znzlib"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/NIFTI/src/nifti/niftilib"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/ZLIB/src/itkzlib-ng"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/vcl"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/v3p/netlib"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/KWSys/src"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/Eigen3/src/itkeigen/.."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/core/vnl/algo"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/core/vnl"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/VNL/src/vxl/core/vnl"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/ZLIB/src/itkzlib-ng"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/NIFTI/src/nifti/znzlib"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/NIFTI/src/nifti/niftilib"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/HDF5/src/itkhdf5/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fopenmp -Wno-deprecated-declarations -Wno-unused-result -Wno-narrowing  -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "DRBUDDIALONE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "ITK_FFTIMAGEFILTERINIT_FACTORY_REGISTER_MANAGER"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "ITK_IMAGEIO_FACTORY_REGISTER_MANAGER"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "ITK_MESHIO_FACTORY_REGISTER_MANAGER"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "ITK_TRANSFORMIO_FACTORY_REGISTER_MANAGER"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "USE_OPENMP"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_POSIX_C_SOURCE=200809L"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "/home/juan_liu/Documents/Projects/tools/TORTOISEV4/check/build/ITKFactoryRegistration"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/Watersheds/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Video/IO/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Video/Filtering/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Video/Core/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Bridge/VTK/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/TestKernel/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/SuperPixel/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/SpatialFunction/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/RegistrationMethodsv4/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/RegionGrowing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/QuadEdgeMeshFiltering/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/Metricsv4/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Optimizersv4/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/MarkovRandomFieldsClassifiers/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/LevelSetsv4/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/LabelVoting/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/libLBFGS/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/KLMRegionGrowing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageNoise/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageFusion/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageFrequency/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/VTK/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformMatlab/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformInsightLegacy/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformHDF5/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TransformFactory/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Stimulate/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/SpatialObjects/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/XML/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Siemens/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/RAW/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/PNG/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/PNG/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/PNG/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/NRRD/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/NrrdIO/src/NrrdIO"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/NrrdIO/src/NrrdIO"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/NIFTI/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Meta/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Mesh/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshVTK/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshOFF/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshOBJ/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshGifti/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshFreeSurfer/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshBYU/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MeshBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/Voronoi/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MRC/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/MINC/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/HDF5/src/itkhdf5"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/HDF5/src/itkhdf5"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC/src/libminc/volume_io/Include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC/src/libminc/libsrc2"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC/src/libminc/libcommon"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC/src/libminc"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MINC"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/MINC"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/LSM/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/TIFF/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/TIFF/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/TIFF/src/itktiff"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/TIFF/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/JPEG2000/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/OpenJPEG/src/openjpeg"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/OpenJPEG/src/openjpeg"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/JPEG/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/JPEG/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/JPEG/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/HDF5/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/GIPL/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/GE/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/IPL/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/GDCM/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/CSV/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/Bruker/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/BioRad/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/BMP/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/HDF5/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/HDF5/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/GPUThresholding/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/GPUSmoothing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/GPUPDEDeformable/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/PDEDeformable/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/Common/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Registration/GPUCommon/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/GPUImageFilterBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/GPUAnisotropicSmoothing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/GPUFiniteDifference/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/GPUCommon/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GIFTI/src/gifticlib"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/MessageExchangeDefinition"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/Common"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/DataDictionary"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/GDCM/src/gdcm/Source/Common"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/GDCM"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/Expat/src/expat"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/Expat/src/expat"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Eigen/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/DisplacementField/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/DiffusionTensorImage/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Denoising/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/DeformableMesh/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Deconvolution/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/DICOMParser/src/DICOMParser"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/DICOMParser/src/DICOMParser"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Colormap/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/Classifiers/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/BiasCorrection/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Polynomials/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/AntiAlias/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/LevelSets/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/SignedDistanceFunction/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Optimizers/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageFeature/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageGradient/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Smoothing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageSources/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Convolution/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/FFT/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageCompare/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/IO/ImageBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/IO/ImageBase"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/FastMarching/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/QuadEdgeMesh/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/DistanceMap/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/NarrowBand/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/BinaryMathematicalMorphology/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/MathematicalMorphology/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Segmentation/ConnectedComponents/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Thresholding/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/LabelMap/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageLabel/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageIntensity/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/Path/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageStatistics/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/SpatialObjects/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/MetaIO/src/MetaIO/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/MetaIO/src/MetaIO/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/ZLIB/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/ZLIB/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/Mesh/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageCompose/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/AnisotropicSmoothing/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageGrid/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/ImageFunction/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/Transform/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Numerics/Statistics/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/Netlib"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/ImageAdaptors/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/CurvatureFlow/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Filtering/ImageFilterBase/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/FiniteDifference/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/Core/Common/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/Core/Common"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/VNL/src/vxl/core"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/VNL/src/vxl/vcl"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/VNL/src/vxl/v3p/netlib"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/core"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/Eigen3/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/DoubleConversion/src/double-conversion"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/DoubleConversion/src"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/usr/local/boost176/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/HDF5/src/itkhdf5/src"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/NIFTI/src/nifti/znzlib"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/NIFTI/src/nifti/niftilib"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/ZLIB/src/itkzlib-ng"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/vcl"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/v3p/netlib"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/KWSys/src"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/Eigen3/src/itkeigen/.."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/core/vnl/algo"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/VNL/src/vxl/core/vnl"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/VNL/src/vxl/core/vnl"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/ZLIB/src/itkzlib-ng"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/NIFTI/src/nifti/znzlib"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/NIFTI/src/nifti/niftilib"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/Modules/ThirdParty/HDF5/src/itkhdf5/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				21
+			]
+		}
+	],
+	"id" : "DRBUDDI::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fopenmp -std=c++14 -Wno-deprecated-declarations -Wno-unused-result -Wno-narrowing  -msse2 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/usr/local/boost176/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/boost176/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkdouble-conversion-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitksys-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkvnl_algo-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkvnl-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkv3p_netlib-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkvcl-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKCommon-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkNetlibSlatec-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKStatistics-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKTransform-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKMesh-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkzlib-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKMetaIO-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKSpatialObjects-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKPath-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKLabelMap-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKMathematicalMorphology-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKQuadEdgeMesh-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKFastMarching-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOImageBase-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKFFT-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKConvolution-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKSmoothing-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKImageFeature-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKOptimizers-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKPolynomials-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKBiasCorrection-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKColormap-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKDICOMParser-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKDeformableMesh-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKDenoising-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKDiffusionTensorImage-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKEXPAT-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmDICT-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmMSFF-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKznz-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKniftiio-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKgiftiio-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKPDEDeformableRegistration-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkhdf5_cpp-static-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkhdf5-static-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOBMP-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOBioRad-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOBruker-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOCSV-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOGDCM-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOIPL-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOGE-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOGIPL-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOHDF5-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkjpeg-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOJPEG-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkopenjpeg-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOJPEG2000-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitktiff-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOTIFF-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOLSM-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkminc2-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMINC-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMRC-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshBase-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshBYU-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshFreeSurfer-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshGifti-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshOBJ-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshOFF-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshVTK-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeta-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIONIFTI-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKNrrdIO-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIONRRD-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkpng-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOPNG-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOSiemens-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOXML-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOSpatialObjects-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOStimulate-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKTransformFactory-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOTransformBase-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOTransformHDF5-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOTransformInsightLegacy-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOTransformMatlab-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOVTK-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKKLMRegionGrowing-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitklbfgs-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKMarkovRandomFieldsClassifiers-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKOptimizersv4-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKQuadEdgeMeshFiltering-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKRegionGrowing-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKRegistrationMethodsv4-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKTestKernel-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKVTK-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKVideoCore-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKVideoIO-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKWatersheds-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/boost176/lib/libboost_iostreams.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/boost176/lib/libboost_filesystem.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/boost176/lib/libboost_system.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/boost176/lib/libboost_regex.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lfftw3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkopenjpeg-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkminc2-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOIPL-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOXML-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkhdf5_cpp-static-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkhdf5-static-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOTransformBase-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKTransformFactory-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKImageFeature-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKOptimizersv4-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKOptimizers-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitklbfgs-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKFFT-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOBMP-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOGDCM-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmMSFF-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmDICT-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmIOD-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmDSED-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmCommon-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmjpeg8-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmjpeg12-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmjpeg16-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmopenjp2-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmcharls-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkgdcmuuid-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOGIPL-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOJPEG-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOTIFF-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitktiff-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkjpeg-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshBYU-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshFreeSurfer-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshGifti-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKgiftiio-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKEXPAT-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshOBJ-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshOFF-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshVTK-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeshBase-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKQuadEdgeMesh-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOMeta-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKMetaIO-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIONIFTI-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKniftiio-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKznz-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIONRRD-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKNrrdIO-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOPNG-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkpng-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkzlib-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOVTK-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKIOImageBase-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKVideoCore-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKMathematicalMorphology-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKStatistics-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkNetlibSlatec-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKSpatialObjects-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKMesh-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKTransform-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKPath-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKCommon-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkdouble-conversion-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitksys-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKVNLInstantiation-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkvnl_algo-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkvnl-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkv3p_netlib-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libitkvcl-5.3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/juan_liu/Documents/Projects/tools/InsightToolkit-5.3rc04_build/lib/libITKSmoothing-5.3.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "DRBUDDI",
+	"nameOnDisk" : "DRBUDDI",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "DRBUDDI_main.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "DRBUDDI_parserBase.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tools/EstimateTensor/DTIModel.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "DRBUDDI.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "DRBUDDIBase.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "run_drbuddi_stage.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "DRBUDDI_Diffeo.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tools/ResampleDWIs/resample_dwis.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rigid_register_images.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tools/EstimateTensor/estimate_tensor_wlls.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "create_mask.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "drbuddi_image_utilities.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "defines.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "TORTOISE_global.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antsCommandLineParser.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antsCommandLineOption.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/TORTOISE_Utilities.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/extract_3Dvolume_from_4D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/read_3Dvolume_from_4D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/read_bmatrix_file.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/math_utilities.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "external_src/cmpfit-1.3a/mpfit.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
